@@ -1,0 +1,30 @@
+﻿<Window x:Class="P1StenographJoe1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P1StenographJoe1"
+        mc:Ignorable="d"
+        FontSize="25"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <UniformGrid Columns="1">
+            <TextBox x:Name="OutputText" TextWrapping="Wrap" Text=""/>
+
+            <UniformGrid Columns="4">
+                <Button Margin="4" Click="Button_Click">hi</Button>
+                <Button Margin="4" Click="Button_Click">Joe</Button>
+                <Button Margin="4" Click="Button_Click">Martin</Button>
+                <Button Margin="4" Click="Button_Click">glad</Button>
+                <Button Margin="4" Click="Button_Click">är</Button>
+                <Button Margin="4" Click="Button_Click">fin</Button>
+                <Button Margin="4" Click="Button_Click">leka</Button>
+                <Button Margin="4" Click="Button_Click">spela</Button>
+                <Button Margin="4" Click="Button_Click">gå</Button>
+                <Button Margin="4" Click="Button_Click">ska</Button>
+                <Button Margin="4" Click="Rensa">Rensa</Button>
+                <Button Margin="4" Click="Button_Click">!</Button>
+            </UniformGrid>
+        </UniformGrid>
+    </Grid>
+</Window>
